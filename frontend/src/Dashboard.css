@@ -1,0 +1,90 @@
+/* Dashboard.css */
+.sidebar {
+  height: 100vh;
+}
+
+.sidebar {
+  height: 100%;
+  overflow-y: auto;
+  background: linear-gradient(to bottom, #1575b4, #14022b);
+  color: white; /* Color de texto blanco */
+}
+
+.sidebar .nav-link {
+  color: white; /* Color de texto de los enlaces */
+}
+
+.sidebar .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Efecto hover */
+  color:whitesmoke;
+}
+
+.sidebar.collapsed {
+  width: 60px; /* Ancho del menú colapsado */
+}
+
+.sidebar.collapsed .nav-link {
+  justify-content: center; /* Centra el contenido */
+  padding: 10px 0; /* Ajusta el padding para el colapso */
+}
+
+.sidebar.collapsed .nav-link .me-2 {
+  display: none; /* Oculta el texto de los enlaces */
+}
+
+.sidebar.collapsed .nav-link .icon-only {
+  display: block; /* Muestra solo el ícono */
+}
+
+.sidebar .text-center img {
+  transition: all 0.3s ease; /* Agrega una transición suave */
+}
+
+h1{
+  color: whitesmoke !important;
+}
+
+.resumen-card {
+  background: linear-gradient(to bottom, #1575b4, #14022b);
+  /*Degradadogris*/border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  color: whitesmoke;
+  -webkit-transition: transform 0.2s;
+  -moz-transition: transform 0.2s;
+  -ms-transition: transform 0.2s;
+  -o-transition: transform 0.2s;
+}
+
+.resumen-card:hover {
+  transform: scale(1.05);
+}
+
+.icono-resumen {
+  color: whitesmoke;
+}
+
+.grafica-card {
+  background: linear-gradient(to bottom, #1575b4, #14022b);
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  color: whitesmoke;
+}
+
+.grafica-card:hover {
+  transform: scale(1.05);
+}
+
+.text-center {
+  text-align: center;
+}
+
+h5 {
+  color: whitesmoke !important;
+}
+
+h3 {
+  color: rgb(10, 170, 122) !important;
+  font-weight: bold;
+}

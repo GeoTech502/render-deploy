@@ -1,0 +1,30 @@
+body, html {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  /* Fondo de imagen */
+  background: url('./assets/fondo4.jpg') no-repeat center center fixed;
+  background-size: cover;  /* Hace que la imagen cubra toda la pantalla */
+  padding: 0;
+  height: 100vh;
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+  background-position: center center; /* Centra la imagen en la pantalla */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
+  
+}
+
+  h3 {
+    color: #030c1a;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .card {
+    border-radius: 15px;
+  }
+  
+  .button-primary, .button-success {
+    border-radius: 25px;
+  }
+  
+  
